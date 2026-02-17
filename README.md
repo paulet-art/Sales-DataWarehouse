@@ -55,25 +55,10 @@ This approach ensures **data reliability, scalability, and auditability**.
 ---
 
 ### 3️⃣ Gold Layer (Analytics-Ready Data)
-**Purpose:** Enable fast and reliable analytics.
+**Purpose:** Explore and understand Business Objects
 
-**Modeling Approach**
-- Star schema design
-- Fact and dimension tables
-
-**Core Tables**
-- `fact_sales`
-- `dim_customers`
-- `dim_products`
-- `dim_date`
-- `dim_regions`
-
-These tables are optimized for:
-- BI dashboards
-- Ad-hoc SQL analysis
-- KPI tracking and trend analysis
-
----
+- Build the objects
+- Type of business dimension
 
 ## 🧠 Data Modeling
 The warehouse uses **dimensional modeling** principles:
@@ -101,19 +86,7 @@ These checks help catch data issues early before reaching dashboards.
 
 ---
 
-## 📊 Analytics Use Cases
-The warehouse supports key sales analytics such as:
-
-- Total and average sales over time
-- Top-performing products and customers
-- Regional sales performance
-- Month-over-month and year-over-year growth
-- Sales trends and seasonality analysis
-
----
-
 ## 🛠️ Tools & Technologies
 - **SQL** – Core transformation and modeling logic  
 - **Relational Database** – Data warehouse storage  
-- **BI Tools (Optional)** – Power BI / Tableau for visualization  
 - **Version Control** – Git for tracking changes  
