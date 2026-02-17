@@ -9,6 +9,8 @@ The goal is to transform raw sales data into a **single source of truth** that c
 
 ## 🏗️ Architecture Overview
 The data warehouse is designed using a **layered (medallion) architecture**:
+<img width="1157" height="619" alt="image" src="https://github.com/user-attachments/assets/54032b53-f2d2-4bfd-ac58-73265466fa4c" />
+
 
 - **Bronze Layer** – Raw, ingested data
 - **Silver Layer** – Cleaned, validated, and transformed data
